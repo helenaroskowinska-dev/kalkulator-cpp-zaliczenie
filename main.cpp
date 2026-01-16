@@ -3,6 +3,13 @@
 using namespace std;
 
 int main() {
-    cout << "Witaj w kalkulatorze!" << endl;
+    int a, b;
+    cout << "Podaj pierwsza liczbe: ";
+    cin >> a;
+    cout << "Podaj druga liczbe: ";
+    cin >> b;
+    
+    cout << "Wynik dodawania: " << a + b << endl;
+    
     return 0;
 }
